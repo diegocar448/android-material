@@ -14,6 +14,8 @@ class TextFieldsActivity: AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?){
         super.onCreate(savedInstanceState)
         setContentView(binding.root)
+
+        binding.inputError.error = "Campo obrigatório"
     }
     companion object{
         fun createIntent(context: Context): Intent = Intent(context, TextFieldsActivity::class.java)

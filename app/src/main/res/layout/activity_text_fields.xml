@@ -37,6 +37,7 @@
             />
     </com.google.android.material.textfield.TextInputLayout>
 
+    <!-- Icon -->
     <com.google.android.material.textfield.TextInputLayout
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
@@ -50,6 +51,21 @@
         app:counterTextColor="@color/counter_text_color"
         android:hint="Label"
         tools:ignore="MissingConstraints">
+        <com.google.android.material.textfield.TextInputEditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            />
+    </com.google.android.material.textfield.TextInputLayout>
+
+    <com.google.android.material.textfield.TextInputLayout
+        android:id="@+id/input_error"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:errorIconDrawable="@null"
+        app:helperText="Digite apenas numeros"
+        app:helperTextTextColor="@color/purple_200"
+        android:hint="Label"
+        >
         <com.google.android.material.textfield.TextInputEditText
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
