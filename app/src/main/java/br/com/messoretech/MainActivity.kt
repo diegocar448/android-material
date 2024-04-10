@@ -14,4 +14,10 @@ class MainActivity : AppCompatActivity() {
         setContentView(binding.root)
         setSupportActionBar(binding.toolbar)
     }
+
+    private fun insertListaners(){
+        binding.cvButtons.setOnClickListener{
+            startActivity(ButtonsActivity.createIntent(context))
+        }
+    }
 }
