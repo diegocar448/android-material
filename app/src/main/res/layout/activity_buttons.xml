@@ -12,19 +12,22 @@
         android:layout_height="wrap_content"
         android:text="Button Contained"
         android:textAllCaps="false"
-        app:icon="@drawable/ic_star"></com.google.android.material.button.MaterialButton>
+        app:icon="@drawable/ic_star">
+    </com.google.android.material.button.MaterialButton>
     <com.google.android.material.button.MaterialButton
         style="@style/Widget.MaterialComponents.Button.OutlinedButton"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:text="Button Outlinded"
         android:textAllCaps="false"
-        app:icon="@drawable/ic_star"></com.google.android.material.button.MaterialButton>
+        app:icon="@drawable/ic_star">
+    </com.google.android.material.button.MaterialButton>
     <com.google.android.material.button.MaterialButton
         style="@style/Widget.MaterialComponents.Button.TextButton"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:text="Button Text"
         android:textAllCaps="false"
-        app:icon="@drawable/ic_star"></com.google.android.material.button.MaterialButton>
+        app:icon="@drawable/ic_star">
+    </com.google.android.material.button.MaterialButton>
 </LinearLayout>
